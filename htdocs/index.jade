@@ -1,0 +1,15 @@
+doctype html
+html(ng-app="olive")
+  head
+    meta(charset='utf-8')
+    base(href="/")
+    title= title
+  body
+    section(id="view" ui-view)
+    script(src="assets/js/angular/angular.js?#{serial}")
+    script(src="assets/js/angular-animate/angular-animate.min.js")
+    script(src="assets/js/angular-route/angular-route.min.js")
+    script(src="assets/js/angular-bootstrap/ui-bootstrap.min.js")
+    script(src="assets/js/angular-ui-router/release/angular-ui-router.min.js")
+    script(src="assets/js/angular-ui-select/dist/select.min.js")
+    script(src="assets/js/#{appName}.js?#{serial}")

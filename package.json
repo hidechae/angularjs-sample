@@ -1,0 +1,26 @@
+{
+    "name": "olive",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hidechae"
+    },
+    "devDependencies": {
+        "express"               : "",
+        "jade"                  : "",
+        "coffee-script"         : "",
+        "pangyp"                : "",
+        "node-sass"             : "",
+        "gulp"                  : "",
+        "gulp-typescript"       : "",
+        "gulp-sass"             : "",
+        "gulp-jade"             : "",
+        "gulp-concat"           : "",
+        "gulp-watch"            : "",
+        "rimraf"                : "",
+        "mkdirp"                : ""
+    },
+    "scripts": {
+        "start": "NODE_ENV=development node app"
+    }
+}

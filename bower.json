@@ -1,0 +1,19 @@
+{
+  "name": "olive",
+  "dependencies": {
+    "jquery": "",
+    "bootstrap-sass-official": "",
+    "angular": "",
+    "angular-route": "",
+    "angular-cookies": "",
+    "angular-animate": "",
+    "angular-xeditable": "",
+    "angular-sanitize": "",
+    "angular-bootstrap": "",
+    "angular-ui-router": "",
+    "angular-md5": "",
+    "angular-ui-select": "",
+    "angular-ui-bootstrap": "",
+    "DefinitelyTyped": ""
+  }
+}
