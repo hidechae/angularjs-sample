@@ -21,8 +21,12 @@ module olive {
                     url: '/',
                     controller: app.IndexController,
                     templateUrl: 'assets/tpl/app/index.html'
-                },
+                }
             }
+
+            angular.forEach(states, (state, name) => {
+                $stateProvider.state(name, state);
+            });
         }
     ]);
 }
